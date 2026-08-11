@@ -1,0 +1,7 @@
+# this notebook ran in colab with these packages installed
+numpy
+pandas
+torch
+matplotlib
+seaborn
+scikit-learn

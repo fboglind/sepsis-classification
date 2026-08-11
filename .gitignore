@@ -1,0 +1,41 @@
+__pycache__/
+backup_data/
+models/
+processed_data/
+raw_data/
+
+# Python
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+*.pyc
+*.pyo
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore dataset and output files
+data/processed/
+*.csv
+*.xlsx
+*.tsv
+*.json
+*.jsonl
+*.log
+*.out
+*.pt  # PyTorch checkpoint files
+*.pkl
+data/lexical/*.xml
+data/lexical/*.pkl
+data/lexical/*.sha256
+data/lexical/*.txt
+
+#Ignore swap and temp files
+*.un~
+*.swp
+*tmp
